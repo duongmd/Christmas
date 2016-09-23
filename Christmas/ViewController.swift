@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tapGestures = UITapGestureRecognizer(target: self, action: #selector(onTap(tapGesture:)))        
+        self.view.addGestureRecognizer(tapGestures)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func onTap(tapGesture: UITapGestureRecognizer) {
+        let snow = UIImageView(image: UIImage(named: "white-snow"))
+        snow.bounds.size = CGSize(width: 30, height: 30)
+        let point = tapGesture.location(in: self.view)
+        snow.center = point
+        self.view.addSubview(snow)
     }
-
 
 }
 

@@ -14,6 +14,13 @@
 		E228B7C51D937B0800D9E10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E228B7C31D937B0800D9E10F /* LaunchScreen.storyboard */; };
 		E228B7D01D937B0900D9E10F /* ChristmasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228B7CF1D937B0900D9E10F /* ChristmasTests.swift */; };
 		E228B7DB1D937B0900D9E10F /* ChristmasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228B7DA1D937B0900D9E10F /* ChristmasUITests.swift */; };
+		E228B7EE1D937D7F00D9E10F /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E228B7EA1D937D7F00D9E10F /* images.jpeg */; };
+		E228B7EF1D937D7F00D9E10F /* icon175x175.png in Resources */ = {isa = PBXBuildFile; fileRef = E228B7EB1D937D7F00D9E10F /* icon175x175.png */; };
+		E228B7F01D937D7F00D9E10F /* iphone-christmas-wallpapers-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E228B7EC1D937D7F00D9E10F /* iphone-christmas-wallpapers-6.jpg */; };
+		E228B7F41D937F3600D9E10F /* olaf-frozen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E228B7F31D937F3600D9E10F /* olaf-frozen.jpeg */; };
+		E228B7F61D937FC300D9E10F /* olaf.png in Resources */ = {isa = PBXBuildFile; fileRef = E228B7F51D937FC300D9E10F /* olaf.png */; };
+		E228B7F81D93815500D9E10F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228B7F71D93815500D9E10F /* Item.swift */; };
+		E228B7FA1D9398A700D9E10F /* white-snow.png in Resources */ = {isa = PBXBuildFile; fileRef = E228B7F91D9398A700D9E10F /* white-snow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		E228B7D61D937B0900D9E10F /* ChristmasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E228B7DA1D937B0900D9E10F /* ChristmasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasUITests.swift; sourceTree = "<group>"; };
 		E228B7DC1D937B0900D9E10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E228B7EA1D937D7F00D9E10F /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		E228B7EB1D937D7F00D9E10F /* icon175x175.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon175x175.png; sourceTree = "<group>"; };
+		E228B7EC1D937D7F00D9E10F /* iphone-christmas-wallpapers-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-christmas-wallpapers-6.jpg"; sourceTree = "<group>"; };
+		E228B7F31D937F3600D9E10F /* olaf-frozen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "olaf-frozen.jpeg"; sourceTree = "<group>"; };
+		E228B7F51D937FC300D9E10F /* olaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olaf.png; sourceTree = "<group>"; };
+		E228B7F71D93815500D9E10F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E228B7F91D9398A700D9E10F /* white-snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-snow.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,10 @@
 		E228B7B91D937B0800D9E10F /* Christmas */ = {
 			isa = PBXGroup;
 			children = (
+				E228B7E81D937D4100D9E10F /* Image */,
 				E228B7BA1D937B0800D9E10F /* AppDelegate.swift */,
 				E228B7BC1D937B0800D9E10F /* ViewController.swift */,
+				E228B7F71D93815500D9E10F /* Item.swift */,
 				E228B7BE1D937B0800D9E10F /* Main.storyboard */,
 				E228B7C11D937B0800D9E10F /* Assets.xcassets */,
 				E228B7C31D937B0800D9E10F /* LaunchScreen.storyboard */,
@@ -123,6 +139,19 @@
 				E228B7DC1D937B0900D9E10F /* Info.plist */,
 			);
 			path = ChristmasUITests;
+			sourceTree = "<group>";
+		};
+		E228B7E81D937D4100D9E10F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E228B7F91D9398A700D9E10F /* white-snow.png */,
+				E228B7F51D937FC300D9E10F /* olaf.png */,
+				E228B7F31D937F3600D9E10F /* olaf-frozen.jpeg */,
+				E228B7EA1D937D7F00D9E10F /* images.jpeg */,
+				E228B7EB1D937D7F00D9E10F /* icon175x175.png */,
+				E228B7EC1D937D7F00D9E10F /* iphone-christmas-wallpapers-6.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E228B7F41D937F3600D9E10F /* olaf-frozen.jpeg in Resources */,
 				E228B7C51D937B0800D9E10F /* LaunchScreen.storyboard in Resources */,
+				E228B7EE1D937D7F00D9E10F /* images.jpeg in Resources */,
 				E228B7C21D937B0800D9E10F /* Assets.xcassets in Resources */,
+				E228B7EF1D937D7F00D9E10F /* icon175x175.png in Resources */,
+				E228B7F61D937FC300D9E10F /* olaf.png in Resources */,
+				E228B7F01D937D7F00D9E10F /* iphone-christmas-wallpapers-6.jpg in Resources */,
 				E228B7C01D937B0800D9E10F /* Main.storyboard in Resources */,
+				E228B7FA1D9398A700D9E10F /* white-snow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E228B7BD1D937B0800D9E10F /* ViewController.swift in Sources */,
+				E228B7F81D93815500D9E10F /* Item.swift in Sources */,
 				E228B7BB1D937B0800D9E10F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +541,7 @@
 				E228B7E11D937B0900D9E10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E228B7E21D937B0900D9E10F /* Build configuration list for PBXNativeTarget "ChristmasTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				E228B7E41D937B0900D9E10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E228B7E51D937B0900D9E10F /* Build configuration list for PBXNativeTarget "ChristmasUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				E228B7E71D937B0900D9E10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
